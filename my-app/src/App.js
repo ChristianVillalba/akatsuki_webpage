@@ -4,7 +4,7 @@ import Home from "./components/Pages/Home";
 function App() {
   return (
     <div> 
-      Hello
+
       <PageWrapper />
       <Home />
     </div>
