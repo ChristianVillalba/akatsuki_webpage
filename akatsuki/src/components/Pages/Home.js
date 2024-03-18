@@ -1,24 +1,20 @@
 import React from "react";
+import Header from "../Common/Header";
+import image from "../assets/img/akatsuki-bg.jpg"
 
 function Home(props) {
   // Any logic or state management can go here
 
   return (
     <div>
-      <header class="masthead">
-        <div class="container">
-          <div class="masthead-subheading">Welcome To Our Studio!</div>
-          <div class="masthead-heading text-uppercase">
-            It's Nice To Meet You
-          </div>
-          <a
-            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            href="#services"
-          >
-            Tell Me More
-          </a>
-        </div>
-      </header>
+      <Header
+        title="Failure is not an option!"
+        subtitle="Akatsuki"
+        buttonText="Tell me more"
+        link="/services"
+        showButton={true}
+        image={image}
+      />
     </div>
   );
 }
