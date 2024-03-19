@@ -1,9 +1,18 @@
 import React from 'react';
+import Header from '../Common/Header';
+import image from "../assets/img/about.jpg";
+
 
 function About(props) {
   
   return (
     <div >
+        <Header 
+              title="About Us"
+              subtitle="We are Akatsuki"
+              showButton={false}
+              image={image}
+            />
       <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
