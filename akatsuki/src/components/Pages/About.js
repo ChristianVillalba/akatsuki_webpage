@@ -3,7 +3,7 @@ import Header from '../Common/Header';
 import image from "../assets/img/about.jpg";
 
 
-function About(props) {
+const About = (props) => {
   
   return (
     <div >

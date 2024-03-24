@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Services from "./components/Common/Services";
+import Accomplishments from "./components/Common/Accomplishments";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="services" element={<Services />} />
+          <Route path="accomplishments" element={<Accomplishments />} />
           <Route path="about" element={<About />} />
         </Routes>
       </Router>
