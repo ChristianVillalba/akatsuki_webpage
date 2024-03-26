@@ -4,7 +4,7 @@ import image from "../assets/img/about.jpg";
 import TimeLine from '../Common/TimeLine';
 
 
-function About(props) {
+const About = (props) => {
   
   return (
     <div >

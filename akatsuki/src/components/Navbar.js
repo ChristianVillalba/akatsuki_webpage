@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar(props) {
+const Navbar = (props) => {
   return (
     <div>
       <nav
@@ -31,8 +31,8 @@ function Navbar(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link js-scroll-trigger" to="/portfolio">
-                  Portfolio
+                <Link className="nav-link js-scroll-trigger" to="/accomplishments">
+                Accomplishments
                 </Link>
               </li>
               <li className="nav-item">
